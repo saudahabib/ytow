@@ -1,0 +1,234 @@
+@media only screen and (max-width:350px){
+  body{
+    color:green;
+  }
+}
+
+body{
+  background-image:url('http://www.ubuntu-ast.org/largeimages/15/150278_red-and-green-wallpaper.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color:  #b2ff59;
+  border-radius:2em;
+  font-size:x-large;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#jacco{
+    background-color:#9ff117;
+    margin:0;
+    padding-top: 1.4em;
+    box-shadow:5px 5px 5px  #515a5a;
+}
+
+nav>ul{
+  text-align:right;
+}
+
+ul>li{
+  display:inline-block;
+}
+
+nav>ul>li>a{
+  font-family:'Comic Sans MS';
+  color:black;
+  text-decoration:none;
+  padding:0.9em;
+  text-transform:uppercase;
+}
+
+nav>ul>li>a:hover{
+  background-color:#d6dbdf;
+  border-radius:15px;
+}
+
+#about{
+  text-align:center;
+  font-family:'Times New Roman', sans-serif;
+  margin:10px 5px 10px;
+  text-transform:uppercase;
+}
+
+.column{display: flex;
+}
+
+.leftscreen{
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+}
+
+.centerscreen{
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.2em;
+}
+
+.rightscreen{
+  display: flex;
+  flex-direction: column;
+  width: 10em;
+}
+
+.padding{
+  margin-top: 2em;
+}
+
+iframe{
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.highlights a:hover{
+  border-radius:15px;
+  background-color:#d5dbdb;
+}
+
+.highlights a:visited{
+  color: blue;
+}
+
+.Whatsapp{
+  border: 3px solid #d7dbdd;
+  box-shadow:-5px 5px 5px #d7dbdd;
+  margin-left: 3.5em;
+}
+
+#takataka{
+  text-align: center;
+}
+
+#contacts{
+  padding:2em;
+  position:relative;
+  left:13em;
+  border-collapse:collapse;
+}
+
+table, th, td{
+  border:2px solid black;
+}
+
+th,td{
+  text-align:left;
+  vertical-align:bottom;
+  height:2em;
+}
+
+tr:hover{
+  background-color:#bdc3c7;
+}
+
+tr:nth-child(even){
+  background-color:#9ff117;
+
+}
+
+img{
+  border-radius:2em;
+}
+
+.raise{
+  width:60%;
+  height:20em;
+}
+
+#events{
+  border:3px solid #9ff117;
+  padding:2em;
+  box-shadow:6px 6px 5px #f1c405;
+  background-image:url('https://previews.123rf.com/images/irinelle/irinelle1610/irinelle161000192/66712342-seamless-mandala-pattern-for-wrapping-paper-fabric-or-wallpaper-hand-drawn-green-ornament-decoration.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.events background-image{
+  opacity:0.2;
+}
+
+.part2{
+  text-align:center;
+  text-decoration:underline;
+  font-size:50px;
+  color:black;
+  font-family:"Lobster", cursive;
+}
+
+.more{
+  display:flex;
+  flex-direction:row;
+  padding:2em;
+  position:relative;
+  right:2.4em;
+}
+
+.swamad, .food, .redcross, .donate, .GCS{
+  padding:0.7em;
+  width:93%;
+}
+
+#swamad, #food, #redcross, #donate, #GCS{
+    border:1px solid white;
+    width: 23%;
+    height:430px;
+    transition:2s;
+    text-align: justify;
+    padding: 0.5em;
+    font-size: large;
+}
+
+#swamad{
+  margin-left:6em;
+}
+
+.shwifty{
+  font-family:"Dancing Script", cursive;
+  text-align:center;
+  font-size:57px;
+  padding:0.7em;
+  box-shadow:-6px 6px 5px #f1c405;
+  background-image:url('https://previews.123rf.com/images/irinelle/irinelle1610/irinelle161000192/66712342-seamless-mandala-pattern-for-wrapping-paper-fabric-or-wallpaper-hand-drawn-green-ornament-decoration.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+#donate:hover, #GCS:hover, #swamad:hover, #redcross:hover, #food:hover{
+  background-color:#d7dbdd;
+}
+
+.media{
+  background-color:silver;
+  display:flex;
+  flex-direction:row;
+  padding:0.5em;
+  justify-content:space-around;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.facebook:hover, .twitter:hover, .insta:hover{
+  background-color:white;
+}
+
+#hassan{
+  height:15em;
+  width: 50em;
+  overflow: scroll;
+}
+
+#color{
+  background-color: rgba(255,255,255,0.5);
+  float: left;
+  width: 33%;
+  margin-right: 1em;
+  border-radius:2em;
+  text-align: justify;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.tip{
+  background-color: rgba(255,255,255,0.5);
+  padding:.15em;
+}
